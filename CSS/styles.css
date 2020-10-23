@@ -1,0 +1,70 @@
+html {
+  font-family: Staatliches;
+}
+
+body {
+  background-color: #FEE1C7;
+  text-align: center;
+}
+
+hr {
+  width: 30%;
+  border-style: none;
+  border-top-style: dashed;
+  border-top-width: thick;
+  color: #B5A886;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #FA7E61;
+}
+
+p {
+  color: #FA7E61;
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
+}
+
+.menu {
+  text-align: center;
+  margin-left: 120px;
+}
+
+.returnhome {
+  font-size: 12px;
+}
+
+label {
+  margin: auto;
+  float: left;
+}
+
+.contactform {
+  margin-left: 475px;
+  margin-right: 450px;
+  margin-bottom: 50px;
+}
+
+input, textarea, button {
+  float: right;
+  align-self: flex-end;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: inherit;
+  }
+}
+
+.content {
+  margin: auto;
+  animation-duration: 2s;
+  animation-name: fadein;
+}
